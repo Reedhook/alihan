@@ -1,12 +1,12 @@
 import './bootstrap';
 import { createApp } from 'vue';
 import vuetify from "./vuetify.js";
-import ExampleComponent from './components/ExampleComponent.vue';
+import IndexComponent from './components/Index.vue';
 
 const app = createApp({});
 
 app.use(vuetify)
 
-app.component('example-component', ExampleComponent);
+app.component('index-component', IndexComponent);
 
 app.mount('#app');

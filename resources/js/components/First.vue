@@ -6,7 +6,6 @@ export default {
 
 <template>
     <v-row>
-        <v-col cols="2"></v-col>
         <v-col cols="4">
             <h2>
                 <span class="bold-large-span">Құрметті<br>аналар!</span>
@@ -15,15 +14,14 @@ export default {
         <v-col cols="2"></v-col>
     </v-row>
     <v-row>
-        <v-col cols="2"></v-col>
         <v-col cols="4">
             <span class="strong-span">
+                <b></b>
                 0-6 жастағы баланың жан-жақты және үйлесімді дамуы туралы сайтқа қош келдіңіз
             </span>
         </v-col>
     </v-row>
     <v-row>
-        <v-col cols="2"></v-col>
         <v-col cols="4">
             <span class="span-text">Біз әрбір қамқор ана баласына ең жақсысын бергісі келетінін білеміз!</span>
         </v-col>

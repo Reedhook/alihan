@@ -13,5 +13,7 @@ export default {
 </template>
 
 <style scoped>
-.img-1
+.img-1{
+    margin: 0 auto;
+}
 </style>

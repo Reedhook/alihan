@@ -4,10 +4,12 @@ import Second from "./Second.vue";
 import Third from "./Third.vue";
 import Fourth from "./Fourth.vue";
 import Fifth from "./Fifth.vue";
+import Sixth from "./Sixth.vue";
+import Seventh from "./Seventh.vue";
 
 export default {
     name: "Index",
-    components: {First, Second, Third, Fourth, Fifth}
+    components: {First, Second, Third, Fourth, Fifth, Sixth, Seventh}
 }
 </script>
 
@@ -22,10 +24,9 @@ export default {
     <Second></Second>
     <Third></Third>
     <Fourth></Fourth>
-    <v-row style="margin-top: 1rem">
-        <img src="/images/volna.svg" alt="">
-    </v-row>
     <Fifth></Fifth>
+    <Sixth></Sixth>
+    <Seventh></Seventh>
 </template>
 
 <style scoped>

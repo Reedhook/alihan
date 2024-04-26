@@ -7,9 +7,8 @@ export default {
 <template>
     <v-row><img src="/images/volna.svg"  alt="" style="transform: scaleY(-1);"></v-row>
     <v-container>
-        <v-row><img class="img-1" src="/images/image.svg" alt="" style=" max-width: 95%;"></v-row>
+        <v-row><img class="img-1" src="/images/image.svg" alt="" style=" max-width: 100%;"></v-row>
     </v-container>
-
 </template>
 
 <style scoped>

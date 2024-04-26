@@ -33,35 +33,41 @@ export default {
             <v-col cols="6">
                 <v-row>
                     <div class="image-text-container">
-                        <img src="/images/vrem9.png" alt="">
+                        <div class="icon">
+                            <img src="/images/vrem9.png" alt="">
+                        </div>
                         <span style="margin:auto 1rem " class="span-text"><b>Өмірдің</b> алғашқы <b>6</b> жылы <b>өте маңызды.</b></span>
                     </div>
                 </v-row>
                 <v-row class="icons">
                     <div class="image-text-container">
-
-                        <img src="/images/icons8-charity.svg" alt="">
+                        <div class="icon">
+                            <img src="/images/icons8-charity.svg" alt="">
+                        </div>
                         <span class="span-text">Біз баланың дамуына негіз қалаймыз.</span>
                     </div>
                 </v-row>
                 <v-row class="icons">
                     <div class="image-text-container">
-
-                        <img src="/images/icons8-brain.svg" alt="">
+                        <div class="icon">
+                            <img src="/images/icons8-brain.svg" alt="">
+                        </div>
                         <span class="span-text"><b>Туғаннан 6 жасқа дейін</b> баланың миының көп бөлігі <b>дамиды, сезім мүшелері дамиды, рефлекстер біріктіріледі.</b></span>
                     </div>
                 </v-row>
                 <v-row class="icons">
                     <div class="image-text-container">
-
-                        <img src="/images/icons8-baby-footprint.svg" alt="">
+                        <div class="icon">
+                            <img src="/images/icons8-baby-footprint.svg" alt="">
+                        </div>
                         <span class="span-text">Егер осы кезеңде <b>вестибулярлық аппарат, сенсорлық дағдылар, баланың қозғалғыштығы</b> дұрыс дамыса, онда оның <b>потенциалы бірнеше есе артады.</b></span>
                     </div>
                 </v-row>
                 <v-row class="icons">
                     <div class="image-text-container">
-
-                        <img src="/images/icons8-course-assign.svg" alt="">
+                        <div class="icon">
+                            <img src="/images/icons8-course-assign.svg" alt="">
+                        </div>
                         <p class="span-text">Бала оңай үйренеді, өзіне сенімді және бақытты адам болады.</p>
                     </div>
                 </v-row>
@@ -71,10 +77,6 @@ export default {
 </template>
 
 <style scoped>
-.span-text {
-    overflow-wrap: break-word;
-}
-
 .icons {
     margin-top: 3rem
 }
@@ -98,7 +100,14 @@ export default {
     display: flex;
     align-items: center; /* Выравнивание по вертикали */
 }
+
 img {
-    max-width: 15%;
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+.icon{
+    border-radius: 50%;
+    background: #F7E8DD;
 }
 </style>

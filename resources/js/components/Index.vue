@@ -6,27 +6,24 @@ import Fourth from "./Fourth.vue";
 import Fifth from "./Fifth.vue";
 import Sixth from "./Sixth.vue";
 import Seventh from "./Seventh.vue";
-
+import Eighth from "./Eighth.vue";
 export default {
     name: "Index",
-    components: {First, Second, Third, Fourth, Fifth, Sixth, Seventh}
+    components: {First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth}
 }
 </script>
 
 <template>
-    <v-row>
-        <img class="top" src="/images/top.svg" alt="" style="transform: scaleY(-1);">
-    </v-row>
+
     <First></First>
-    <v-row>
-        <img src="/images/volna.svg" alt="">
-    </v-row>
+
     <Second></Second>
     <Third></Third>
     <Fourth></Fourth>
     <Fifth></Fifth>
     <Sixth></Sixth>
     <Seventh></Seventh>
+    <Eighth></Eighth>
 </template>
 
 <style scoped>

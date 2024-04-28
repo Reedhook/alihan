@@ -1,3 +1,25 @@
 body{
     background: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+.bold-text, .bold-little-text{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #FF4D30
+}
+.bold-little-text, .text {
+    font-size: 1.2rem;
+    color: #253366;
+}
+.title{
+    font-weight: bold;
+    color: #253366;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+.text{
+    font-size: 1.3rem;
+}
+.container{
+    max-width: 1168px;
 }

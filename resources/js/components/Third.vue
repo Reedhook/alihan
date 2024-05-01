@@ -1,12 +1,12 @@
 <script>
 export default {
-    name: "Thrid"
+    name: "Third"
 }
 </script>
 
 <template>
     <v-row style="transform: scaleY(-1);">
-        <img src="/images/volna.svg"  alt="" style="transform: translateY(140px);">
+        <img src="/images/volna.svg"  alt="" style="transform: translateY(90px);">
     </v-row>
     <v-container class="container">
         <v-row><img class="img-1" src="/images/image.svg" alt="" style=" max-width: 100%;"></v-row>

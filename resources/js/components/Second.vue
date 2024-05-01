@@ -26,9 +26,7 @@ export default {
             </v-row>
         </v-container>
     </div>
-    <v-row style="transform: scaleY(-1);">
-        <img src="/images/volna.svg"  alt="" style="transform: translateY(90px);">
-    </v-row>
+
 </template>
 
 <style scoped>

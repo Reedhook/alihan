@@ -14,9 +14,7 @@ export default {
 </script>
 
 <template>
-
     <First></First>
-
     <Second></Second>
     <Third></Third>
     <Fourth></Fourth>
@@ -27,10 +25,5 @@ export default {
 </template>
 
 <style scoped>
-.back {
-    display: flex;
-    justify-content: center;
-    background-color: #F7E8DD;
-}
 
 </style>

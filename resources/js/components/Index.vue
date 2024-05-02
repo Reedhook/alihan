@@ -14,8 +14,11 @@ export default {
 </script>
 
 <template>
+    <First></First>
     <Second></Second>
-    <Third></Third>
+    <v-row style="transform: scaleY(-1);">
+        <img src="/images/volna.svg"  alt="" style="transform: translateY(90px);">
+    </v-row>
     <Fourth></Fourth>
     <Fifth></Fifth>
     <Sixth></Sixth>

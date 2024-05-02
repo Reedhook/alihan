@@ -24,6 +24,7 @@ export default {
                     <span class="text">сіз өзіңіздің <strong>аналық кезеңіңіздің қалай жеңіл, көңілді</strong> және <strong>жайлы</strong> етуді үйренесіз, ал баланың <strong>балалық шағы бақытты, көңілді және жарқын</strong> болуын</span>
                 </v-col>
             </v-row>
+
         </v-container>
     </div>
 

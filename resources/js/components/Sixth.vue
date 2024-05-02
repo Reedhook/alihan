@@ -7,9 +7,11 @@ export default {
 <template>
     <v-container style="margin-top: 3rem" class="container">
         <v-row>
-            <v-col style="text-align: center">
+            <v-col cols="8" style="text-align: right">
                 <span class="title">Баланың моторлық және сенсорлық тәжірибесі неғұрлым ерте басталса, соғұрлым ол дамиды. Оған үйрену оңайырақ болады және оқу процесі оған көбірек рахат әкеледі.</span>
             </v-col>
+            <v-col cols="4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/csC6mvPOHGw?si=mJ9gYFNzLAHkP9fj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </v-col>
         </v-row>
         <v-row style="text-align: center; margin-top: 3rem">
             <v-col cols="12">
@@ -54,7 +56,7 @@ export default {
     font-size: 1.6rem;
 }
 .title{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .bold-span{
     font-size: 2rem;

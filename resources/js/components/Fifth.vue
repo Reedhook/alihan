@@ -13,7 +13,7 @@ export default {
         <v-container class="container">
             <v-row style="margin-bottom: 2rem">
                 <v-col style="text-align: center;">
-                    <span class="title">Баланың өміріндегі ең қымбат уақытты жіберіп алмау үшін әр ата-ана үшін нені түсіну керек?</span>
+                    <span class="title">Баланың өміріндегі ең қымбат уақытты жіберіп алмау үшін әр ата-ана нені түсіну керек?</span>
                 </v-col>
             </v-row>
             <v-row>

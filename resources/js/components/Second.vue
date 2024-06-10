@@ -8,7 +8,7 @@ export default {
     <div class="back">
         <v-container class="container">
             <v-row style="margin-bottom: 3rem">
-                <span class="title">Сондықтан мұнда сіз біле аласыз:</span>
+                <span class="title">Мұнда сіз біле аласыз:</span>
             </v-row>
             <v-row>
                 <v-col cols="4" class="first">

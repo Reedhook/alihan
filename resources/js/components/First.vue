@@ -12,9 +12,9 @@ export default {
         <v-row>
             <v-col cols="7">
                 <v-row>
-                    <v-col cols="4">
+                    <v-col cols="12">
                         <h2>
-                            <span class="bold-text">Құрметті<br>аналар!</span>
+                            <span class="bold-text">Құрметті<br>ата-аналар!</span>
                         </h2>
                     </v-col>
                 </v-row>

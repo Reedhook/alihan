@@ -7,7 +7,7 @@ export default {
 <template>
     <v-container class="container">
         <v-row>
-            <span class="title">Ең маңыздысы туралы</span>
+            <span class="title">Ең маңыздысы</span>
         </v-row>
         <v-row>
             <v-col cols="5">
